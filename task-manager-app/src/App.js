@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
@@ -38,11 +38,18 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
 }
 
 function App() {
-  const [todos, setTodos] = useState([
-    { text: "Learn about React", isCompleted: false },
-    { text: "Meet friend for lunch", isCompleted: false },
-    { text: "Build really cool todo app", isCompleted: false },
-  ]);
+
+  const [todos, setTodos] = useState();
+  
+  const fetchAllTasks = async () => {
+    const res = await fetch('/api/tasks/all');
+    const tasks = await res.json();
+    setTodos(tasks);
+  }
+
+  useEffect(()=>{
+    fetchAllTasks();
+  }, [])
 
   const addTodo = (text) => {
     const newTodos = [...todos, { text }];
@@ -61,6 +68,9 @@ function App() {
     setTodos(newTodos);
   };
 
+  if (!todos) {
+    return <div>Loading...</div>
+  }
   return (
     <div className="app">
       <div className="todo-list">
