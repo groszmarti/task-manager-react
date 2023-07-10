@@ -2,6 +2,9 @@
   background: #209cee;
   height: 100vh;
   padding: 30px;
+  display: grid;
+  align-items: baseline;
+  justify-content:space-around;
 }
 
 .todo-list {
