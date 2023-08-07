@@ -57,15 +57,11 @@ function App() {
   };
 
   const completeTodo = index => {
-    const newTodos = [...todos];
-    newTodos[index].isCompleted = true;
-    setTodos(newTodos);
+
   };
 
   const removeTodo = index => {
-    const newTodos = [...todos];
-    newTodos.splice(index, 1);
-    setTodos(newTodos);
+
   };
 
   if (!todos) {
@@ -73,12 +69,16 @@ function App() {
   }
   return (
     <div className="app">
-      <div className="todo-list">
+      {/* <TodoForm addTodo={addTodo} /> */}
         {todos.map((todo, index) => (
-          <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} removeTodo={removeTodo}/>
+          <div className="todo-list">
+          <div className="todo" id={index}>{todo.title}</div>
+          <div className="todo" id={index}>{todo.description}</div>
+          <div className="todo" id={index}>Due: {todo.dueDate}</div>
+          <div className="todo" id={index}>Priority: {todo.priorityLevel}</div>
+          <div className="todo" id={index}>Status: {todo.status}</div>
+          </div>
         ))}
-        <TodoForm addTodo={addTodo} />
-      </div>
     </div>
   );
 }
