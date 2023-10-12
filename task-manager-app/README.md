@@ -105,7 +105,9 @@ Márta Grósz - (www.linkedin.com/in/marta-grosz) - grosz.marti@gmail.com
 Bánk Árvai - (https://www.linkedin.com/in/b%C3%A1nk-%C3%A1rvai-a83346287/)
 
 Project Links: 
+<br>
 [https://github.com/groszmarti/task-manager-pet-project](https://github.com/groszmarti/task-manager-pet-project)
+<br>
 [https://github.com/groszmarti/task-manager-react](https://github.com/groszmarti/task-manager-react)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
