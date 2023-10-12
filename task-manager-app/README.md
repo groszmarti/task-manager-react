@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div alignment="center">
-    <img src="/src/images/task_manager_screenshot.png" width="600" height="800">
+    <img src="/task-manager-app/src/images/task_manager_screenshot.png" width="600" height="800">
 
   <h3 alignment="center">Simple Task Manager App</h3>
 
