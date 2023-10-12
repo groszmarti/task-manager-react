@@ -99,6 +99,7 @@ To get a local copy up and running follow these simple steps.
 ## Contact
 
 Márta Grósz - (www.linkedin.com/in/marta-grosz) - grosz.marti@gmail.com
+<br>
 Bánk Árvai - (https://www.linkedin.com/in/b%C3%A1nk-%C3%A1rvai-a83346287/)
 
 Project Links: 
