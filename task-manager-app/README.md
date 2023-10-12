@@ -1,8 +1,9 @@
+<div alignment="center">
   <h3 alignment="center">Simple Task Manager App</h3>
 <br />
-<div alignment="center">
     <img src="/task-manager-app/src/images/task_manager_screenshot.png" width="500" height="300">
-
+<br>
+<br>
   <p alignment="center">
     Managing your tasks has never been easier!
     <br/>
