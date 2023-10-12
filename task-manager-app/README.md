@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div alignment="center">
+    <img src="/src/images/task_manager_screenshot.png" width="600" height="800">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 alignment="center">Simple Task Manager App</h3>
 
-## Available Scripts
+  <p alignment="center">
+    Managing your tasks has never been easier!
+    <br/>
+    <br/>
+    <br/>
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+        <a href="#about-the-project">About The Project</a>
+        <ul>
+            <li><a href="#built-with">Built With</a></li>
+        </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</details>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<b>What The App Offers:</b>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. <b>Adding New Tasks:</b>
+Type the new task to be added and hit `Enter`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. <b>Mark Tasks As Complete</b>
+When a task is done, click on `Complete` next to the task.
 
-### `npm run eject`
+3. <b>Remove Tasks</b>
+When a task is of no use anymore, click on `X` to remove it.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p alignment="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Built With
 
-## Learn More
+* PostgreSQL
+* Java
+* React.js
+* Nodejs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<p alignment="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- GETTING STARTED -->
+## Getting Started
 
-### Making a Progressive Web App
+To get a local copy up and running follow these simple steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Installation
 
-### Advanced Configuration
+1. Clone the back-end repo
+   ```sh
+   git clone git@github.com:groszmarti/task-manager-pet-project.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Open the Maven project in your IDEA
 
-### Deployment
+3. Run the `TaskManagerApplication` class
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Clone the front-end repo
+  ```sh
+   git clone git@github.com:groszmarti/task-manager-react.git
+   ```
+5. Install NPM packages
+   ```sh
+   npm install
+   ```
+6. Navigate to `task-manager-app` folder
+   ```sh
+   cd .\task-manager-app\
+   ```
+5. Start React app
+   ```sh
+   npm run start
+   ```
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p alignment="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Márta Grósz - (www.linkedin.com/in/marta-grosz) - grosz.marti@gmail.com
+Bánk Árvai - (https://www.linkedin.com/in/b%C3%A1nk-%C3%A1rvai-a83346287/)
+
+Project Links: 
+[https://github.com/groszmarti/task-manager-pet-project](https://github.com/groszmarti/task-manager-pet-project)
+[https://github.com/groszmarti/task-manager-react](https://github.com/groszmarti/task-manager-react)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
